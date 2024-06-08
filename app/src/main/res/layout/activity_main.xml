@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEFFF3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btTable10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#00BCD4"
+        android:text="10"
+        app:layout_constraintEnd_toEndOf="@+id/btTable8"
+        app:layout_constraintStart_toStartOf="@+id/btTable8"
+        app:layout_constraintTop_toBottomOf="@+id/btTable8" />
+
+    <Button
+        android:id="@+id/btTable9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="#00BCD4"
+        android:text="9"
+        app:layout_constraintBottom_toBottomOf="@+id/btTable8"
+        app:layout_constraintStart_toEndOf="@+id/btTable8"
+        app:layout_constraintTop_toTopOf="@+id/btTable8" />
+
+    <Button
+        android:id="@+id/btTable8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/btTable7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#00BCD4"
+        android:text="7"
+        app:layout_constraintBottom_toBottomOf="@+id/btTable8"
+        app:layout_constraintEnd_toStartOf="@+id/btTable8"
+        app:layout_constraintTop_toTopOf="@+id/btTable8" />
+
+    <Button
+        android:id="@+id/btTable6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="#00BCD4"
+        android:text="6"
+        app:layout_constraintBottom_toBottomOf="@+id/btTable5"
+        app:layout_constraintStart_toEndOf="@+id/btTable5"
+        app:layout_constraintTop_toTopOf="@+id/btTable5" />
+
+    <Button
+        android:id="@+id/btTable5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="5"
+        app:layout_constraintBottom_toTopOf="@+id/fgTable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <Button
+        android:id="@+id/btTable4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#00BCD4"
+        android:text="4"
+        app:layout_constraintBottom_toBottomOf="@+id/btTable5"
+        app:layout_constraintEnd_toStartOf="@+id/btTable5"
+        app:layout_constraintTop_toTopOf="@+id/btTable5" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fgTable"
+        android:name="com.example.oop_61.BlankFragment"
+        android:layout_width="0dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btTable1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#00BCD4"
+        android:text="1"
+        app:layout_constraintBottom_toBottomOf="@+id/btTable2"
+        app:layout_constraintEnd_toStartOf="@+id/btTable2"
+        app:layout_constraintTop_toTopOf="@+id/btTable2" />
+
+    <Button
+        android:id="@+id/btTable2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00BCD4"
+        android:text="2"
+        app:layout_constraintBottom_toTopOf="@+id/fgTable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <Button
+        android:id="@+id/btTable3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="#00BCD4"
+        android:text="3"
+        app:layout_constraintBottom_toBottomOf="@+id/btTable2"
+        app:layout_constraintStart_toEndOf="@+id/btTable2"
+        app:layout_constraintTop_toTopOf="@+id/btTable2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
